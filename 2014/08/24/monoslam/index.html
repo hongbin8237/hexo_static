@@ -3,17 +3,25 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Tag: Blog | Hexo</title>
+    <title>Monocular SLAM using reflections | Hexo</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://hongbinyoon.com/tags/Blog/index.html">
+        <meta name="keywords" content="" />
+    
+    <meta name="description" content="Vision based nagivation in riverine environmentHere is the final result. Data set was collected from Boneyard Creek in UIUC Campus. Reflection Matching Results">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Monocular SLAM using reflections">
+<meta property="og:url" content="http://hongbinyoon.com/2014/08/24/monoslam/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Vision based nagivation in riverine environmentHere is the final result. Data set was collected from Boneyard Creek in UIUC Campus. Reflection Matching Results">
 <meta property="og:locale" content="en">
+<meta property="og:image" content="http://hongbinyoon.com/images/vo/rviz1.png">
+<meta property="og:updated_time" content="2017-11-26T21:58:10.977Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="Monocular SLAM using reflections">
+<meta name="twitter:description" content="Vision based nagivation in riverine environmentHere is the final result. Data set was collected from Boneyard Creek in UIUC Campus. Reflection Matching Results">
+<meta name="twitter:image" content="http://hongbinyoon.com/images/vo/rviz1.png">
     
 
     
@@ -122,74 +130,123 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    <i class="icon fa fa-tag"></i>Tag: <em>Blog</em>
+    uncategorized
     </h1>
 </div>
                         <div class="main-body-content">
-                            
-
-    
-    
+                            <article id="post-monoslam" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
         
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2017" class="archive-year"><i class="icon fa fa-calendar-o"></i>2017</a>
-            </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2017/11/26/firstPost/" class="thumbnail">
-    
-    
-        <span style="background-image:url(/images/profile.jpg)" alt="Test Post on DO" class="thumbnail-image"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://hongbinyoon.com/2017/11/26/firstPost/">0</span>
-    
-</span>
-
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <div class="category">
-            
-            </div>
-            <div class="date"><time datetime="2017-11-26T09:11:47.000Z" itemprop="datePublished">2017-11-26</time></div>
-        </div>
-        
+            <header class="article-header">
+                
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2017/11/26/firstPost/">Test Post on DO</a>
+        Monocular SLAM using reflections
         </h1>
     
 
-        <p class="article-excerpt">
-            Markdown goes here. first post ! 
+            </header>
+        
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+        <a href="/2014/08/24/monoslam/" class="article-date">
+            <time datetime="2014-08-24T21:14:50.000Z" itemprop="datePublished">2014-08-24</time>
+        </a>
+    </div>
 
-        </p>
+                
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <h2 id="Vision-based-nagivation-in-riverine-environment"><a href="#Vision-based-nagivation-in-riverine-environment" class="headerlink" title="Vision based nagivation in riverine environment"></a>Vision based nagivation in riverine environment</h2><p>Here is the final result.<br><img src="/images/vo/rviz1.png" alt="Visualization of the Path and Features in ROS/rviz."></p>
+<p>Data set was collected from Boneyard Creek in UIUC Campus.<br><img src="/images/vo/env.png" alt="Boneyard Creek birds eye view."></p>
+<p>Reflection Matching<br><img src="/images/vo/reflectionMatching.png" alt="Feature Detection, Matching, and Tracking."></p>
+<p>Results<br><img src="/images/vo/boneyardCreek.png" alt="matlab result overlayed on google map image."></p>
+<p><img src="/images/vo/rviz2.png" alt="visualization in ROS/rviz."></p>
+<div class="video-container"><iframe src="//www.youtube.com/embed/2MYlUGppOFo" frameborder="0" allowfullscreen></iframe></div> 
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="http://hongbinyoon.com/2014/08/24/monoslam/" data-id="cjahb3fb70002y2muc1lkc1iu" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
     </div>
 </article>
+
+    <section id="comments">
     
-        </div>
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
     
-
-
-    </div></section>
-
+    </section>
 
 
                         </div>
@@ -251,6 +308,23 @@
         </ul>
     </div>
     
+        
+<nav id="article-nav">
+    
+        <a href="/2017/11/26/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">newer</strong>
+        <p class="article-nav-title">
+        
+            Hello World
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+</nav>
+
+    
     <div class="widgets-container">
         
             
@@ -259,26 +333,6 @@
         <h3 class="widget-title">recents</h3>
         <div class="widget">
             <ul id="recent-post" class="">
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2017/11/26/firstPost/" class="thumbnail">
-    
-    
-        <span style="background-image:url(/images/profile.jpg)" alt="Test Post on DO" class="thumbnail-image"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/2017/11/26/firstPost/" class="title">Test Post on DO</a></p>
-                            <p class="item-date"><time datetime="2017-11-26T09:11:47.000Z" itemprop="datePublished">2017-11-26</time></p>
-                        </div>
-                    </li>
                 
                     <li>
                         
@@ -300,6 +354,26 @@
                         </div>
                     </li>
                 
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2014/08/24/monoslam/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/vo/rviz1.png)" alt="Monocular SLAM using reflections" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2014/08/24/monoslam/" class="title">Monocular SLAM using reflections</a></p>
+                            <p class="item-date"><time datetime="2014-08-24T21:14:50.000Z" itemprop="datePublished">2014-08-24</time></p>
+                        </div>
+                    </li>
+                
             </ul>
         </div>
     </div>
@@ -312,30 +386,16 @@
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">archives</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a><span class="archive-list-count">2</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a><span class="archive-list-count">1</span></li></ul>
         </div>
     </div>
 
 
             
                 
-    <div class="widget-wrap widget-list">
-        <h3 class="widget-title">tags</h3>
-        <div class="widget">
-            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Blog/">Blog</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Test/">Test</a><span class="tag-list-count">1</span></li></ul>
-        </div>
-    </div>
-
 
             
                 
-    <div class="widget-wrap widget-float">
-        <h3 class="widget-title">tag cloud</h3>
-        <div class="widget tagcloud">
-            <a href="/tags/Blog/" style="font-size: 10px;">Blog</a> <a href="/tags/Test/" style="font-size: 10px;">Test</a>
-        </div>
-    </div>
-
 
             
                 
@@ -380,11 +440,13 @@
     var disqus_shortname = 'hexo-theme-hueman';
     
     
+    var disqus_url = 'http://hongbinyoon.com/2014/08/24/monoslam/';
+    
     (function() {
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
     </script>
